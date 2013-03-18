@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37A0797E16F7BF4200093353 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A0797D16F7BF4200093353 /* Cocoa.framework */; };
+		37A0798816F7BF4200093353 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37A0798616F7BF4200093353 /* InfoPlist.strings */; };
+		37A0798A16F7BF4200093353 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A0798916F7BF4200093353 /* main.m */; };
+		37A0798E16F7BF4200093353 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 37A0798C16F7BF4200093353 /* Credits.rtf */; };
+		37A0799116F7BF4200093353 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A0799016F7BF4200093353 /* AppDelegate.m */; };
+		37A0799416F7BF4200093353 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A0799216F7BF4200093353 /* MainMenu.xib */; };
+		37A0799C16F7BF4300093353 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A0799B16F7BF4300093353 /* SenTestingKit.framework */; };
+		37A0799D16F7BF4300093353 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A0797D16F7BF4200093353 /* Cocoa.framework */; };
+		37A079A516F7BF4300093353 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37A079A316F7BF4300093353 /* InfoPlist.strings */; };
+		37A079A816F7BF4300093353 /* AvatarOfJarlsbergTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A079A716F7BF4300093353 /* AvatarOfJarlsbergTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37A0799E16F7BF4300093353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37A0797216F7BF4200093353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37A0797916F7BF4200093353;
+			remoteInfo = AvatarOfJarlsberg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37A0797A16F7BF4200093353 /* AvatarOfJarlsberg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatarOfJarlsberg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A0797D16F7BF4200093353 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		37A0798016F7BF4200093353 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		37A0798116F7BF4200093353 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		37A0798216F7BF4200093353 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37A0798516F7BF4200093353 /* AvatarOfJarlsberg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AvatarOfJarlsberg-Info.plist"; sourceTree = "<group>"; };
+		37A0798716F7BF4200093353 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37A0798916F7BF4200093353 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37A0798B16F7BF4200093353 /* AvatarOfJarlsberg-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AvatarOfJarlsberg-Prefix.pch"; sourceTree = "<group>"; };
+		37A0798D16F7BF4200093353 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		37A0798F16F7BF4200093353 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37A0799016F7BF4200093353 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37A0799316F7BF4200093353 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		37A0799A16F7BF4300093353 /* AvatarOfJarlsbergTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvatarOfJarlsbergTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A0799B16F7BF4300093353 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		37A079A216F7BF4300093353 /* AvatarOfJarlsbergTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AvatarOfJarlsbergTests-Info.plist"; sourceTree = "<group>"; };
+		37A079A416F7BF4300093353 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37A079A616F7BF4300093353 /* AvatarOfJarlsbergTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvatarOfJarlsbergTests.h; sourceTree = "<group>"; };
+		37A079A716F7BF4300093353 /* AvatarOfJarlsbergTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvatarOfJarlsbergTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37A0797716F7BF4200093353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A0797E16F7BF4200093353 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A0799616F7BF4300093353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A0799C16F7BF4300093353 /* SenTestingKit.framework in Frameworks */,
+				37A0799D16F7BF4300093353 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37A0797116F7BF4200093353 = {
+			isa = PBXGroup;
+			children = (
+				37A0798316F7BF4200093353 /* AvatarOfJarlsberg */,
+				37A079A016F7BF4300093353 /* AvatarOfJarlsbergTests */,
+				37A0797C16F7BF4200093353 /* Frameworks */,
+				37A0797B16F7BF4200093353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37A0797B16F7BF4200093353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37A0797A16F7BF4200093353 /* AvatarOfJarlsberg.app */,
+				37A0799A16F7BF4300093353 /* AvatarOfJarlsbergTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37A0797C16F7BF4200093353 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A0797D16F7BF4200093353 /* Cocoa.framework */,
+				37A0799B16F7BF4300093353 /* SenTestingKit.framework */,
+				37A0797F16F7BF4200093353 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37A0797F16F7BF4200093353 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A0798016F7BF4200093353 /* AppKit.framework */,
+				37A0798116F7BF4200093353 /* CoreData.framework */,
+				37A0798216F7BF4200093353 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		37A0798316F7BF4200093353 /* AvatarOfJarlsberg */ = {
+			isa = PBXGroup;
+			children = (
+				37A0798F16F7BF4200093353 /* AppDelegate.h */,
+				37A0799016F7BF4200093353 /* AppDelegate.m */,
+				37A0799216F7BF4200093353 /* MainMenu.xib */,
+				37A0798416F7BF4200093353 /* Supporting Files */,
+			);
+			path = AvatarOfJarlsberg;
+			sourceTree = "<group>";
+		};
+		37A0798416F7BF4200093353 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37A0798516F7BF4200093353 /* AvatarOfJarlsberg-Info.plist */,
+				37A0798616F7BF4200093353 /* InfoPlist.strings */,
+				37A0798916F7BF4200093353 /* main.m */,
+				37A0798B16F7BF4200093353 /* AvatarOfJarlsberg-Prefix.pch */,
+				37A0798C16F7BF4200093353 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37A079A016F7BF4300093353 /* AvatarOfJarlsbergTests */ = {
+			isa = PBXGroup;
+			children = (
+				37A079A616F7BF4300093353 /* AvatarOfJarlsbergTests.h */,
+				37A079A716F7BF4300093353 /* AvatarOfJarlsbergTests.m */,
+				37A079A116F7BF4300093353 /* Supporting Files */,
+			);
+			path = AvatarOfJarlsbergTests;
+			sourceTree = "<group>";
+		};
+		37A079A116F7BF4300093353 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37A079A216F7BF4300093353 /* AvatarOfJarlsbergTests-Info.plist */,
+				37A079A316F7BF4300093353 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37A0797916F7BF4200093353 /* AvatarOfJarlsberg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A079AB16F7BF4300093353 /* Build configuration list for PBXNativeTarget "AvatarOfJarlsberg" */;
+			buildPhases = (
+				37A0797616F7BF4200093353 /* Sources */,
+				37A0797716F7BF4200093353 /* Frameworks */,
+				37A0797816F7BF4200093353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvatarOfJarlsberg;
+			productName = AvatarOfJarlsberg;
+			productReference = 37A0797A16F7BF4200093353 /* AvatarOfJarlsberg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37A0799916F7BF4300093353 /* AvatarOfJarlsbergTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A079AE16F7BF4300093353 /* Build configuration list for PBXNativeTarget "AvatarOfJarlsbergTests" */;
+			buildPhases = (
+				37A0799516F7BF4300093353 /* Sources */,
+				37A0799616F7BF4300093353 /* Frameworks */,
+				37A0799716F7BF4300093353 /* Resources */,
+				37A0799816F7BF4300093353 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37A0799F16F7BF4300093353 /* PBXTargetDependency */,
+			);
+			name = AvatarOfJarlsbergTests;
+			productName = AvatarOfJarlsbergTests;
+			productReference = 37A0799A16F7BF4300093353 /* AvatarOfJarlsbergTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37A0797216F7BF4200093353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "MRD Engineering";
+			};
+			buildConfigurationList = 37A0797516F7BF4200093353 /* Build configuration list for PBXProject "AvatarOfJarlsberg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37A0797116F7BF4200093353;
+			productRefGroup = 37A0797B16F7BF4200093353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37A0797916F7BF4200093353 /* AvatarOfJarlsberg */,
+				37A0799916F7BF4300093353 /* AvatarOfJarlsbergTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37A0797816F7BF4200093353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A0798816F7BF4200093353 /* InfoPlist.strings in Resources */,
+				37A0798E16F7BF4200093353 /* Credits.rtf in Resources */,
+				37A0799416F7BF4200093353 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A0799716F7BF4300093353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A079A516F7BF4300093353 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37A0799816F7BF4300093353 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37A0797616F7BF4200093353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A0798A16F7BF4200093353 /* main.m in Sources */,
+				37A0799116F7BF4200093353 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A0799516F7BF4300093353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A079A816F7BF4300093353 /* AvatarOfJarlsbergTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37A0799F16F7BF4300093353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37A0797916F7BF4200093353 /* AvatarOfJarlsberg */;
+			targetProxy = 37A0799E16F7BF4300093353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37A0798616F7BF4200093353 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A0798716F7BF4200093353 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37A0798C16F7BF4200093353 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A0798D16F7BF4200093353 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		37A0799216F7BF4200093353 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A0799316F7BF4200093353 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		37A079A316F7BF4300093353 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A079A416F7BF4300093353 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37A079A916F7BF4300093353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		37A079AA16F7BF4300093353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		37A079AC16F7BF4300093353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvatarOfJarlsberg/AvatarOfJarlsberg-Prefix.pch";
+				INFOPLIST_FILE = "AvatarOfJarlsberg/AvatarOfJarlsberg-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37A079AD16F7BF4300093353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvatarOfJarlsberg/AvatarOfJarlsberg-Prefix.pch";
+				INFOPLIST_FILE = "AvatarOfJarlsberg/AvatarOfJarlsberg-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37A079AF16F7BF4300093353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AvatarOfJarlsberg.app/Contents/MacOS/AvatarOfJarlsberg";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvatarOfJarlsberg/AvatarOfJarlsberg-Prefix.pch";
+				INFOPLIST_FILE = "AvatarOfJarlsbergTests/AvatarOfJarlsbergTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		37A079B016F7BF4300093353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AvatarOfJarlsberg.app/Contents/MacOS/AvatarOfJarlsberg";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvatarOfJarlsberg/AvatarOfJarlsberg-Prefix.pch";
+				INFOPLIST_FILE = "AvatarOfJarlsbergTests/AvatarOfJarlsbergTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37A0797516F7BF4200093353 /* Build configuration list for PBXProject "AvatarOfJarlsberg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A079A916F7BF4300093353 /* Debug */,
+				37A079AA16F7BF4300093353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A079AB16F7BF4300093353 /* Build configuration list for PBXNativeTarget "AvatarOfJarlsberg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A079AC16F7BF4300093353 /* Debug */,
+				37A079AD16F7BF4300093353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37A079AE16F7BF4300093353 /* Build configuration list for PBXNativeTarget "AvatarOfJarlsbergTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A079AF16F7BF4300093353 /* Debug */,
+				37A079B016F7BF4300093353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37A0797216F7BF4200093353 /* Project object */;
+}

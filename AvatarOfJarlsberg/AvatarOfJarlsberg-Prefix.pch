@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'AvatarOfJarlsberg' target in the 'AvatarOfJarlsberg' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
