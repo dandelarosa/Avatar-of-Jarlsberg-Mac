@@ -17,6 +17,7 @@
 		37A0799D16F7BF4300093353 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A0797D16F7BF4200093353 /* Cocoa.framework */; };
 		37A079A516F7BF4300093353 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37A079A316F7BF4300093353 /* InfoPlist.strings */; };
 		37A079A816F7BF4300093353 /* AvatarOfJarlsbergTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A079A716F7BF4300093353 /* AvatarOfJarlsbergTests.m */; };
+		37A2972316F90C0300CB6030 /* Skill.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A2972216F90C0300CB6030 /* Skill.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		37A079A416F7BF4300093353 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37A079A616F7BF4300093353 /* AvatarOfJarlsbergTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvatarOfJarlsbergTests.h; sourceTree = "<group>"; };
 		37A079A716F7BF4300093353 /* AvatarOfJarlsbergTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvatarOfJarlsbergTests.m; sourceTree = "<group>"; };
+		37A2972116F90C0300CB6030 /* Skill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skill.h; sourceTree = "<group>"; };
+		37A2972216F90C0300CB6030 /* Skill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skill.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				37A0798F16F7BF4200093353 /* AppDelegate.h */,
 				37A0799016F7BF4200093353 /* AppDelegate.m */,
 				37A0799216F7BF4200093353 /* MainMenu.xib */,
+				37A2972116F90C0300CB6030 /* Skill.h */,
+				37A2972216F90C0300CB6030 /* Skill.m */,
 				37A0798416F7BF4200093353 /* Supporting Files */,
 			);
 			path = AvatarOfJarlsberg;
@@ -263,6 +268,7 @@
 			files = (
 				37A0798A16F7BF4200093353 /* main.m in Sources */,
 				37A0799116F7BF4200093353 /* AppDelegate.m in Sources */,
+				37A2972316F90C0300CB6030 /* Skill.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +458,7 @@
 				37A079AD16F7BF4300093353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37A079AE16F7BF4300093353 /* Build configuration list for PBXNativeTarget "AvatarOfJarlsbergTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +467,7 @@
 				37A079B016F7BF4300093353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
